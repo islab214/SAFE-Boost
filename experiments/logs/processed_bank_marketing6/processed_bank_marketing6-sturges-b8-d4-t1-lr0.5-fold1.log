@@ -1,0 +1,241 @@
+HEAAN_TYPE set to: real
+FGb
+Removed directory
+[MEM] start: 3452.1 MiB
+..Created modified cutpoints file at: ./bin_results/processed_bank_marketing6/sturges/bin8/cutpoints_modify.json
+B : 7, F: 37
+scaling coef :  0.00017148296791050374
+
+=== Fm_list shape ===
+Number of blocks: 2
+[Histogram] build histogram time : 2.8725s<<<
+=== Result (3D) ===
+Result shape: (259, 2, 32768)
+[Histogram] transform bin index end.
+[TIME]Histogram encode Time: 5.4485 s
+[TIME]Histogram encrypt Time: 6.4571 s
+Metadata saved to result/Metadata.json
+[TIME]Histogram save Time: 4.0517 s
+[MEM] after histogram save: 10680.7 MiB
+
+=== Hyperparameters ===
+n_estimators: 1
+max_depth: 4
+learning_rate: 0.5
+reg_lambda: 1.0
+max_bin: 8
+prune_gamma: 0.0
+=== XGBoost Training ===
+B : 7, F: 37
+=== 0th Tree ===
+>>> train 0 level start <<<
+[MEM][before calc left_gh] GPU memory used: 29525 MiB
+chunk 0-129 shape : (129, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 0-129 to GPU] GPU memory used: 29525 MiB
+[MEM][after processing 0-129] GPU memory used: 29621 MiB
+chunk 129-None shape : (130, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 129-None to GPU] GPU memory used: 29621 MiB
+[MEM][after processing 129-None] GPU memory used: 29685 MiB
+[TIME] transform datalist Time: 1.4349 s
+[TIME]calc gain Time: 8.4798 s
+[TIME]gain scaling Time: 16.3483 s
+[TIME]find max pos Time: 9.1626 s
+[TIME]Update node Time: 6.2623 s
+>>> train 1 level start <<<
+[TIME]Update data Time: 0.0013 s
+[MEM][before calc left_gh] GPU memory used: 34901 MiB
+chunk 0-129 shape : (129, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 0-129 to GPU] GPU memory used: 34901 MiB
+[MEM][after processing 0-129] GPU memory used: 34901 MiB
+chunk 129-None shape : (130, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 129-None to GPU] GPU memory used: 34901 MiB
+[MEM][after processing 129-None] GPU memory used: 34901 MiB
+[TIME] transform datalist Time: 0.8058 s
+[BOOTSTRAP] gain level (after masking) :  3
+[TIME]calc gain Time: 2.2004 s
+[TIME]Update data Time: 0.0010 s
+[MEM][before calc left_gh] GPU memory used: 34901 MiB
+chunk 0-129 shape : (129, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 0-129 to GPU] GPU memory used: 34901 MiB
+[MEM][after processing 0-129] GPU memory used: 34933 MiB
+chunk 129-None shape : (130, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 129-None to GPU] GPU memory used: 34933 MiB
+[MEM][after processing 129-None] GPU memory used: 34997 MiB
+[TIME] transform datalist Time: 0.8066 s
+[BOOTSTRAP] gain level (after masking) :  3
+[TIME]calc gain Time: 2.2016 s
+[TIME]gain scaling Time: 12.8693 s
+[TIME]find max pos Time: 9.1984 s
+[TIME]Update node Time: 6.2844 s
+[TIME]Update node Time: 6.2899 s
+>>> train 2 level start <<<
+[TIME]Update data Time: 0.0011 s
+[MEM][before calc left_gh] GPU memory used: 34997 MiB
+chunk 0-129 shape : (129, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 0-129 to GPU] GPU memory used: 34997 MiB
+[MEM][after processing 0-129] GPU memory used: 34997 MiB
+chunk 129-None shape : (130, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 129-None to GPU] GPU memory used: 34997 MiB
+[MEM][after processing 129-None] GPU memory used: 34997 MiB
+[TIME] transform datalist Time: 0.7389 s
+[BOOTSTRAP] trans_left_GH level (before G,H):  5
+[TIME]calc gain Time: 6.3857 s
+[TIME]Update data Time: 0.0012 s
+[MEM][before calc left_gh] GPU memory used: 34997 MiB
+chunk 0-129 shape : (129, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 0-129 to GPU] GPU memory used: 34997 MiB
+[MEM][after processing 0-129] GPU memory used: 34997 MiB
+chunk 129-None shape : (130, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 129-None to GPU] GPU memory used: 34997 MiB
+[MEM][after processing 129-None] GPU memory used: 35029 MiB
+[TIME] transform datalist Time: 0.7375 s
+[BOOTSTRAP] trans_left_GH level (before G,H):  5
+[TIME]calc gain Time: 6.2421 s
+[TIME]Update data Time: 0.0011 s
+[MEM][before calc left_gh] GPU memory used: 35029 MiB
+chunk 0-129 shape : (129, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 0-129 to GPU] GPU memory used: 35029 MiB
+[MEM][after processing 0-129] GPU memory used: 35061 MiB
+chunk 129-None shape : (130, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 129-None to GPU] GPU memory used: 35061 MiB
+[MEM][after processing 129-None] GPU memory used: 35093 MiB
+[TIME] transform datalist Time: 0.7377 s
+[BOOTSTRAP] trans_left_GH level (before G,H):  5
+[TIME]calc gain Time: 6.1986 s
+[TIME]Update data Time: 0.0015 s
+[MEM][before calc left_gh] GPU memory used: 35093 MiB
+chunk 0-129 shape : (129, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 0-129 to GPU] GPU memory used: 35093 MiB
+[MEM][after processing 0-129] GPU memory used: 35093 MiB
+chunk 129-None shape : (130, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 129-None to GPU] GPU memory used: 35093 MiB
+[MEM][after processing 129-None] GPU memory used: 35125 MiB
+[TIME] transform datalist Time: 0.7378 s
+[BOOTSTRAP] trans_left_GH level (before G,H):  5
+[TIME]calc gain Time: 6.2102 s
+[TIME]gain scaling Time: 12.8397 s
+[TIME]find max pos Time: 9.1798 s
+[TIME]Update node Time: 6.2684 s
+[TIME]Update node Time: 6.2665 s
+[TIME]Update node Time: 6.2766 s
+[TIME]Update node Time: 6.2900 s
+>>> train 3 level start <<<
+[TIME]Update data Time: 0.0012 s
+[MEM][before calc left_gh] GPU memory used: 35125 MiB
+chunk 0-129 shape : (129, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 0-129 to GPU] GPU memory used: 35125 MiB
+[MEM][after processing 0-129] GPU memory used: 35125 MiB
+chunk 129-None shape : (130, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 129-None to GPU] GPU memory used: 35125 MiB
+[MEM][after processing 129-None] GPU memory used: 35125 MiB
+[TIME] transform datalist Time: 0.5972 s
+[BOOTSTRAP] trans_left_GH level (before G,H):  4
+[TIME]calc gain Time: 6.0398 s
+[TIME]Update data Time: 0.0017 s
+[MEM][before calc left_gh] GPU memory used: 35125 MiB
+chunk 0-129 shape : (129, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 0-129 to GPU] GPU memory used: 35125 MiB
+[MEM][after processing 0-129] GPU memory used: 35125 MiB
+chunk 129-None shape : (130, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 129-None to GPU] GPU memory used: 35125 MiB
+[MEM][after processing 129-None] GPU memory used: 35125 MiB
+[TIME] transform datalist Time: 0.6020 s
+[BOOTSTRAP] trans_left_GH level (before G,H):  4
+[TIME]calc gain Time: 5.9979 s
+[TIME]Update data Time: 0.0012 s
+[MEM][before calc left_gh] GPU memory used: 35125 MiB
+chunk 0-129 shape : (129, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 0-129 to GPU] GPU memory used: 35125 MiB
+[MEM][after processing 0-129] GPU memory used: 35125 MiB
+chunk 129-None shape : (130, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 129-None to GPU] GPU memory used: 35125 MiB
+[MEM][after processing 129-None] GPU memory used: 35157 MiB
+[TIME] transform datalist Time: 0.5914 s
+[BOOTSTRAP] trans_left_GH level (before G,H):  4
+[TIME]calc gain Time: 6.0226 s
+[TIME]Update data Time: 0.0016 s
+[MEM][before calc left_gh] GPU memory used: 35157 MiB
+chunk 0-129 shape : (129, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 0-129 to GPU] GPU memory used: 35157 MiB
+[MEM][after processing 0-129] GPU memory used: 35157 MiB
+chunk 129-None shape : (130, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 129-None to GPU] GPU memory used: 35157 MiB
+[MEM][after processing 129-None] GPU memory used: 35189 MiB
+[TIME] transform datalist Time: 0.5935 s
+[BOOTSTRAP] trans_left_GH level (before G,H):  4
+[TIME]calc gain Time: 6.0365 s
+[TIME]Update data Time: 0.0012 s
+[MEM][before calc left_gh] GPU memory used: 35189 MiB
+chunk 0-129 shape : (129, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 0-129 to GPU] GPU memory used: 35189 MiB
+[MEM][after processing 0-129] GPU memory used: 35221 MiB
+chunk 129-None shape : (130, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 129-None to GPU] GPU memory used: 35221 MiB
+[MEM][after processing 129-None] GPU memory used: 35285 MiB
+[TIME] transform datalist Time: 0.5935 s
+[BOOTSTRAP] trans_left_GH level (before G,H):  4
+[TIME]calc gain Time: 5.9516 s
+[TIME]Update data Time: 0.0015 s
+[MEM][before calc left_gh] GPU memory used: 35285 MiB
+chunk 0-129 shape : (129, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 0-129 to GPU] GPU memory used: 35285 MiB
+[MEM][after processing 0-129] GPU memory used: 35285 MiB
+chunk 129-None shape : (130, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 129-None to GPU] GPU memory used: 35285 MiB
+[MEM][after processing 129-None] GPU memory used: 35317 MiB
+[TIME] transform datalist Time: 0.5948 s
+[BOOTSTRAP] trans_left_GH level (before G,H):  4
+[TIME]calc gain Time: 6.0071 s
+[TIME]Update data Time: 0.0013 s
+[MEM][before calc left_gh] GPU memory used: 35317 MiB
+chunk 0-129 shape : (129, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 0-129 to GPU] GPU memory used: 35317 MiB
+[MEM][after processing 0-129] GPU memory used: 35317 MiB
+chunk 129-None shape : (130, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 129-None to GPU] GPU memory used: 35317 MiB
+[MEM][after processing 129-None] GPU memory used: 35381 MiB
+[TIME] transform datalist Time: 0.5894 s
+[BOOTSTRAP] trans_left_GH level (before G,H):  4
+[TIME]calc gain Time: 6.0266 s
+[TIME]Update data Time: 0.0018 s
+[MEM][before calc left_gh] GPU memory used: 35381 MiB
+chunk 0-129 shape : (129, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 0-129 to GPU] GPU memory used: 35381 MiB
+[MEM][after processing 0-129] GPU memory used: 35509 MiB
+chunk 129-None shape : (130, 2) type : <class 'dataset.data_set.DataMatrix'>
+[MEM][chunk 129-None to GPU] GPU memory used: 35509 MiB
+[MEM][after processing 129-None] GPU memory used: 35573 MiB
+[TIME] transform datalist Time: 0.5980 s
+[BOOTSTRAP] trans_left_GH level (before G,H):  4
+[TIME]calc gain Time: 5.9749 s
+[TIME]gain scaling Time: 13.4676 s
+[TIME]find max pos Time: 9.1722 s
+[TIME]Update node Time: 6.2578 s
+[TIME]Update node Time: 6.2642 s
+[TIME]Update node Time: 6.2671 s
+[TIME]Update node Time: 6.2821 s
+[TIME]Update node Time: 6.2836 s
+[TIME]Update node Time: 6.2885 s
+[TIME]Update node Time: 6.2876 s
+[TIME]Update node Time: 6.2924 s
+>>> train leaf level start <<<
+[TIME]Update data leaf Time: 0.0206 s
+[TIME]calc weight Time: 9.6493 s
+[TIME]0th Tree Train Time: 282.5709 s
+[TIME]Predict contribution Time: 3.4000 s
+[LEVEL] sigmoid output level: 7
+[TIME]F2P Time: 0.2892 s
+[BOOTSTRAP] scaled_h level: 4
+[TIME]0th Tree histogram update Time: 0.3469 s
+[TIME]Histogram save Time: 0.0331 s
+[TIME]XGBoost Train Time: 286.6070 s
+[MEM] after xgb fit: 30690.4 MiB
+acc: 0.7258, f1: 0.7069, auc: 0.7432, val_loss: 0.6562
+✅ Metrics saved to ./bin_results/processed_bank_marketing6/sturges/sturges_metrics(train_only).csv
+========================================
+🚀 [processed_bank_marketing6] Fold=1 | bin=8 | depth=4 | trees=1 | lr=0.5
+✅ cutpoints.json 존재. C++ binning 단계 건너뜀
+⏳ Python HE 학습/추론 시작...
+✅ 학습/추론 완료 (360.20s)
+----------------------------------------
+
